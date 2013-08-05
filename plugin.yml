@@ -1,0 +1,17 @@
+name: Real Estate Craft
+main: com.rurd4me.realestatecraft.RealEstateCraft
+version : .1
+softdepend: [WorldGuard, WorldEdit]
+commands:
+  sellregion:
+    description : list the current region for sale, if you own it.
+    usage: /<command> <region_id> <amount>
+  buyregion:
+    description : buy the current region, if it is for sale.
+    usage: /<command> [region_id]
+  regioninfo:
+    description : find out if region is for sale and how much it is listed for.
+    usage: /<command> [region_id]
+  stopsellingregion:
+    description : find out if region is for sale and how much it is listed for.
+    usage: /<command> [region_id]
